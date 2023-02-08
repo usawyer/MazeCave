@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Documentation
+    </title>
+</head>
+
+<body>
+    <h1 align="center"> Documentation</h1>
+
+    <h3>Introduction</h3>
+    <hr color="black" noshade />
+    <p>This is the project that implements mazes and caves including the basic algorithms of their handling, such as:
+        generation, rendering and solving. </p>
+
+    <h3>Installation</h3>
+    <hr color="black" noshade />
+    <p>Can be opened in QT creator or create the executable using <b>make install</b>.</p>
+
+    <h3>Maze</h3>
+    <hr color="black" noshade />
+    <p>Maze is the program that allows to generate "perfect" or "simply connected" with no loops mazes
+        according to
+        Eller's algorithm and find the shortest path using A* search algorithm. </p>
+
+    <h5>Description</h5>
+    <p>The app supports the following features.</p>
+    <ul>
+        <li>load a maze from an .txt file that contain numbers of rows and columns and two matrices with the positions
+            of vertical and horizontal walls</li>
+        <li>generate a perfect maze</li>
+        <li>save the generated maze in the .txt file format described above automatically</li>
+        <li>solve a maze</li>
+    </ul>
+
+    <h5>How to use</h5>
+    <ol>
+        <li>To load the maze, click "Load froam file..." and select the required file.</li>
+        <li>To generate a maze, click "Generate".</li>
+        <li>To change the dimensions of the generated maze enter the desired values in the corresponding windows.</li>
+        <li>To solve the maze:
+            <ul>
+                <li>select the first point by clicking with the left mouse button</li>
+                <li>select the second point by clicking with the left mouse button</li>
+                <li>deselect the first point or delete the drawn path with the right mouse button</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>Cave</h3>
+    <hr color="black" noshade />
+    <p>Cave is the program that allows to generate cave using a cellular automaton.</p>
+
+    <h5>Description</h5>
+    <p>The app supports the following features.</p>
+    <ul>
+        <li>load a cave from an .txt file that contain numbers of rows and columns and matrix with the positions
+            of "live" and "dead" cells</li>
+        <li>generate a cave</li>
+        <li>rendering the next step in two variants: by pressing the next step button or by pressing the start automatic
+            work button that starts rendering iterations of the algorithm with a frequency of 1 step in N milliseconds
+        </li>
+    </ul>
+
+    <h5>How to use</h5>
+    <ol>
+        <li>To load the cave, click "Load froam file..." and select the required file.</li>
+        <li>To generate a cave, click "Generate".</li>
+        <li>To change cave's generation/rendering parameters enter the desired values in the corresponding windows.</li>
+
+    </ol>
+
+</body>
+
+</html>
